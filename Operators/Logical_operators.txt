@@ -1,0 +1,10 @@
+Logical Operators
+Logical operators are used to determine the logic between variables or values:
+
+Operator	Name	        Description	                         Example	
+    && 	    Logical and	    Returns true if both statements     x < 5 &&  x < 10
+                            are true		
+    || 	    Logical or	    R   eturns true if one of the       x < 5 || x < 4
+                            statements is true	
+    !	    Logical not	    Reverse the result, returns false   !(x < 5 && x < 10)
+                             if the result is true	
