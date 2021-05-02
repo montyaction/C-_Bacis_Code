@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    // Kind of variable ans declare the value
+    int Num = 55;
+    float myFloatNum = 55.45;
+    double myDoubleNum = -55.45;
+    char name = 'M';
+    string hello = "kaisi lagi mohan pyare";
+    bool MyBoolean = true;
+
+    cout << "It is Integer Type Data : " <<Num<<endl;
+    cout << "It is Floating Type Data : " <<myFloatNum<<endl;
+    cout << "It is Double Type Data : " <<myDoubleNum<<endl;
+    cout << "That is Character Type Data : "<<name<<endl;
+    cout << "This is String(text) Type Data : "<<hello<<endl;
+    return 0;
+}
